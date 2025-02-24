@@ -51,9 +51,9 @@ class Counter with ChangeNotifier {
   Color get color {
     if (value <= 12) return Colors.lightBlue;
     if (value <= 19) return Colors.lightGreen;
-    if (value <= 30) return Colors.lightYellow;
+    if (value <= 30) return Colors.yellow;
     if (value <= 50) return Colors.orange;
-    return Colors.lightGray;
+    return Colors.grey;
   }
 }
 
